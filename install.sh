@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Installing scripts..."
 
-SCRIPTS=("alias tleaks=\"bash ~/scripts/leaksloop.sh\"" "alias push=\"bash ~/scripts/push.sh\"")
+SCRIPTS=("alias tleaks=\"bash ~/scripts/leaksloop.sh\"" "alias push=\"bash ~/scripts/push.sh\"" "alias code=\"bash ~/scripts/code.sh\"")
 
 if [ -f ~/.bashrc ]; then
 	echo "Adding to .bashrc..."
